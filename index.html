@@ -112,6 +112,17 @@
       font-family: 'Noto Sans Devanagari', sans-serif;
       color: #333;
     }
+
+     #excelTable table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    #excelTable th, #excelTable td {
+      border: 1px solid #ccc;
+      padding: 8px;
+    }  
   </style>
 </head>
 <body>
@@ -139,7 +150,7 @@
     </div>
 
     <div class="main-header">
-      <img src="https://www.csir.res.in/sites/default/files/csir-logo_1.png" alt="CSIR Logo" class="logo">
+      <img src="csir_crri_logo.png" alt="CSIR-CRRI Logo" class="logo">
       <div class="title-section">
         <h1>CSIR - Central Road Research Institute</h1>
         <h2>सीएसआईआर - केंद्रीय सड़क अनुसंधान संस्थान</h2>
@@ -178,16 +189,73 @@
   <label for="roadPhase">Road Phase:</label>
   <select id="roadPhase">
     <option value="">-- Select Road Phase --</option>
+    <option value="Phase I">Phase I</option>
+    <option value="Phase II">Phase II</option>
+    <option value="Phase III">Phase III</option>
+    <option value="Phase IV">Phase IV</option>
   </select>
-
+   
   <label for="roadLink">Road Link:</label>
   <select id="roadLink">
     <option value="">-- Select Road Link --</option>
   </select>
 
-  <button onclick="showData()">View</button>
+<!-- Excel File Upload and Preview (hidden by default) -->
+<div id="excelUploadSection" style="display: none;">
+  <label for="excelFile">Attach Excel file for Phase III:</label>
+  <input type="file" id="excelFile" accept=".xlsx,.xls">
+  <span id="excelFileName"></span>
+</div>
 
-  <div id="result"></div>
+<button onclick="showData()">View</button>
+<div id="result"></div>
+<div id="excelTable"></div>
+
+<script src="script.js"></script>
+  <script>
+
+    // Excel File Preview Logic
+    document.addEventListener('DOMContentLoaded', function() {
+      const fileInput = document.getElementById('excelFile');
+      const fileNameSpan = document.getElementById('excelFileName');
+      const tableDiv = document.getElementById('excelTable');
+      const roadPhaseSelect = document.getElementById('roadPhase');
+      const excelSection = document.getElementById('excelUploadSection');
+
+       // Show/hide Excel upload for Phase III
+      roadPhaseSelect.addEventListener('change', function() {
+        if (roadPhaseSelect.value === 'Phase III') {
+          excelSection.style.display = '';
+        } else {
+          excelSection.style.display = 'none';
+          fileInput.value = '';
+          fileNameSpan.textContent = '';
+          tableDiv.innerHTML = '';
+        }
+      });
+
+    fileInput.addEventListener('change', function() {
+      if (fileInput.files.length > 0) {
+        const file = fileInput.files[0];
+        fileNameSpan.textContent = `Selected file: ${file.name}`;
+          // Read and display the Excel file
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          const data = e.target.result;
+          const workbook = XLSX.read(data, {type: 'binary'});
+          const sheetName = workbook.SheetNames[0];
+          const worksheet = workbook.Sheets[sheetName];
+          const html = XLSX.utils.sheet_to_html(worksheet);
+          tableDiv.innerHTML = html;
+        };
+        reader.readAsBinaryString(file);
+      } else {
+        fileNameSpan.textContent = '';
+        tableDiv.innerHTML = '';
+      }
+    });
+  });
+</script>
 
 <script src="script.js"></script>
 </body>
