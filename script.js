@@ -1,11 +1,11 @@
-// Full location data for all Indian states
+   // Full location data for all Indian states
 const locationData = {
   "Andhra Pradesh": {
     "Chittoor": ["Puttur", "Madanapalle"],
     "Guntur": ["Tenali", "Mangalagiri"]
   },
   "Arunachal Pradesh": {
-    "Itanagar": ["Naharlagun", "Chimpu"],
+    "Itanagar": ["Naharlagun", "Chimpu"],   
     "Tawang": ["Lumla", "Zemithang"]
   },
   "Assam": {
@@ -127,90 +127,115 @@ const locationData = {
 const districtmaps  = ['East Khasi Hills','West Garo Hills','East Garo Hills','North Garo Hills','South Garo Hills','Ribhoi','South West Garo Hills','South West Khasi Hills','East Jaintia Hills','West Jaintia Hills','West Khasi Hills'];
 const districtmapsLinks = {
   "Meghalaya": {
-    "East Khasi Hills": "https://drive.google.com/file/d/1n5TImd7QbwQN-Quy2OtQM0A9Smd3xwaN/view?usp=drive_link",
-    "West Garo Hills": "https://drive.google.com/file/d/1n3k7nNS3RdQUxUJwLteJrELvVtywrEIE/view?usp=drive_link",
-    "East Garo Hills": "https://drive.google.com/file/d/1pwHWH0lEnREkMORmiZCG-f2o6cC5SSzz/view?usp=drive_link",
-    "North Garo Hills": "https://drive.google.com/file/d/1yDcTrwUz2Ot_8Rzs83hAwGTjYIOGjyDt/view?usp=drive_link",
-    "South Garo Hills": "https://drive.google.com/file/d/1AFztJat9F0jf258QOmXdV6BNqafbttk8/view?usp=drive_link",
-    "Ribhoi": "https://drive.google.com/file/d/1ZyC0kxR13FWpjcPPQ3W7GUkt9VW-G1iZ/view?usp=drive_link",
-    "South West Garo Hills": "https://drive.google.com/file/d/1oImda6dTgT_ICWiDUvHYXa394rlKRZZg/view?usp=drive_link",
-    "South West Khasi Hills": "https://drive.google.com/file/d/18oSXq_QH6I0X5OGCNl8aHR6RavOKmoXG/view?usp=drive_link",
-    "East Jaintia Hills": "https://drive.google.com/file/d/1T1OZvh-mEDLKpnuF4b-vy8gFt9pyrHy1/view?usp=drive_link",
-    "West Jaintia Hills": "https://drive.google.com/file/d/1s8BwyrRnruZGTCGffGXUJME8GUVYOP6y/view?usp=drive_link",
-    "West Khasi Hills": "https://drive.google.com/file/d/1ce7vdAdGkVy354r2rOSSstk91hd1f3oa/view?usp=drive_link",
+  "East Khasi Hills": "https://drive.google.com/file/d/1J9OZc_psyx7n8j24Hw6Z2IbHTgu7631a/view?usp=sharing",
+  "West Garo Hills": "https://drive.google.com/file/d/1kmpRSp32PojMAcA2NpG14hfqVbEiYVsc/view?usp=sharing",
+  "East Garo Hills": "https://drive.google.com/file/d/17qOCNJFjbdaFbH83a2mqgfkR0Ti5aTHn/view?usp=sharing",
+  "North Garo Hills": "https://drive.google.com/file/d/17MJdirN1E0hRMVKGQta4C5Nt4PGfy-GG/view?usp=sharing",
+  "South Garo Hills": "https://drive.google.com/file/d/1PoWdCjyCXB0ne-wS2LLL65o7QUxQpwTx/view?usp=sharing",
+  "Ribhoi": "https://drive.google.com/file/d/13q70657xe8sFhETywzLr0aEWOp1-J6tQ/view?usp=sharing",
+  "South West Garo Hills": "https://drive.google.com/file/d/1fd1D1V2PWZfWA2YG2UpQ4N9rxO5qqJVR/view?usp=sharing",
+  "South West Khasi Hills": "https://drive.google.com/file/d/14EiDtPOgR3iXXf-n2Pr4BRGyEJavzbXq/view?usp=sharing",
+  "East Jaintia Hills": "https://drive.google.com/file/d/177mwNope3xBG-IN_A3nuAf9pD4dXDMnr/view?usp=sharing",
+  "West Jaintia Hills": "https://drive.google.com/file/d/1WWgfvVrE5pflaSLTzv_dIP3d02a0x3a3/view?usp=sharing",
+  "West Khasi Hills": "https://drive.google.com/file/d/18rPT1Va37N2ZUwIjkPul2d5GvZPmyUr4/view?usp=sharing",
   }
 };
 const blockMapsLinks = {
   "Meghalaya": {
     "East Khasi Hills": {
-      "Laitkroh": "https://drive.google.com/file/d/17SbOzYbtac2gePTGDn7XlpChfRaG2EQZ/view?usp=drive_link",
-      "Mawlai": "https://drive.google.com/file/d/1J-wz4yJxELJYNyu6RuUccRrrbuyEUTzN/view?usp=drive_link",
-      "Mawpat": "https://drive.google.com/file/d/1bWCVzJCGUGNeuMG-e-_bVHVlI9MfGrff/view?usp=drive_link",
-      "Mylliem": "https://drive.google.com/file/d/1KjnFx94_vZ4ZlLrpr5lrlhWaWWyXPfsj/view?usp=drive_link",
-      "Sohiong": "https://drive.google.com/file/d/1vVmIkZv91zweVZo9rwbzzD78uk7QJkxD/view?usp=drive_link",
-      "Mawphlang": "https://drive.google.com/file/d/1DvDcM60j1OKsOIr4PgRosQjp7eRRjQOC/view?usp=drive_link",
-      "Mawsynram": "https://drive.google.com/file/d/1JfSHWgZueC0PoEevjx7ZOWxCvxz5SY5V/view?usp=drive_link",
-      "Pynursla": "https://drive.google.com/file/d/1btxxM5z_PDGjrem_NntMO1EPdRrXoW16/view?usp=drive_link",
-      "Mawkynrew": "https://drive.google.com/file/d/11fJwvJ3cC3bruDh1OoNi-W1yDv6Aw6aR/view?usp=drive_link",
-      "Shella Bollaganj": "https://drive.google.com/file/d/1uaq8mr4nOGNEhmXlVI_1ONaZ9eBZAp4v/view?usp=drive_link",
-      "Mawryngkneng": "https://drive.google.com/file/d/1uz86RMyGHWu39dXw17TF_N3foCySMftM/view?usp=drive_link",
+      "Laitkroh": "https://drive.google.com/file/d/123Ci5DWDutHa9xnyB3V2AcWBdtX2kiND/view?usp=sharing",
+      "Mawlai": "https://drive.google.com/file/d/1pLAi3TZw1JyuPY3eTA-AHuiKddYuWT-r/view?usp=sharing",
+      "Mawpat": "https://drive.google.com/file/d/1cHGL4uIZCvEbGbcc2vEet2VL8-tJMJY2/view?usp=sharing",
+      "Mylliem": "https://drive.google.com/file/d/1MtnxE-u9L4sSPchuAO2219unLazpw8hL/view?usp=sharing",
+      "Sohiong": "https://drive.google.com/file/d/1_awKpR6oUnihGE1sItk3qZHkjWXCPN59/view?usp=sharing",
+      "Mawphlang": "https://drive.google.com/file/d/1ABYk9rbqAZGnrOwcjUzn66vmRFw2JJoK/view?usp=sharing",
+      "Mawsynram": "https://drive.google.com/file/d/1FMvl-wC_Zmq6ggDJH4gDd8p5zVc9dKJA/view?usp=sharing",
+      "Pynursla": "https://drive.google.com/file/d/1dH1Vhwv-9JXuAzMz94o2Tg2IVKzWap1i/view?usp=sharing",
+      "Mawkynrew": "https://drive.google.com/file/d/1ADYFcINLvEGVkXsRgR2zcheDSxJS_1Bw/view?usp=sharing",
+      "Shella Bollaganj": "https://drive.google.com/file/d/1ife0MmbyX6cCSNNupCy2rpZN6ESj1P43/view?usp=sharing",
+      "Mawryngkneng": "https://drive.google.com/file/d/1XVM0LUMGuo4gasDR3EgjhGFNyuA0ngS-/view?usp=sharing",
     },
     "West Garo Hills": {
-      "Demdema": "https://drive.google.com/file/d/1TPYv-moRQf1tf4Ski5x15xPluAtJIOTC/view?usp=drive_link",
-      "Dadenggre": "https://drive.google.com/file/d/1uUpT4M4GaSlUrm3Ja84xFZm7NBxY3I7e/view?usp=drive_link",
-      "Gambegre": "https://drive.google.com/file/d/1rgFzU_XsPC2rCZG-Q5d4OTHjBfZBo5DD/view?usp=drive_link",
-      "Dalu": "https://drive.google.com/file/d/1RowxE7mWb6x36kZpvY7snYKEHW8N_2gs/view?usp=drive_link",
-      "Selsella": "https://drive.google.com/file/d/1g3k2pFuZikVqsdcy_KfKUpFBf-5e2K3j/view?usp=drive_link",
-      "Tikrikilla": "https://drive.google.com/file/d/1LGD05jTk9DMMyje_KFIY5tia8dcFv9Ps/view?usp=drive_link",
-      "Rongram": "https://drive.google.com/file/d/1RzEdjENQAF86xcmFbZ18lYpYUOC00VZw/view?usp=drive_link",
+      "Demdema": "https://drive.google.com/file/d/1EHg3o8u8BRXJjpsg9CHN2J13HjsXIuR8/view?usp=sharing",
+      "Dadenggre": "https://drive.google.com/file/d/1GsLhOIle4MFkU-jGZf16Z8E8ellGskuV/view?usp=sharing",
+      "Gambegre": "https://drive.google.com/file/d/1CcGy1KaAyxBxewlEJFU9ZahV1lxLSo4G/view?usp=sharing",
+      "Dalu": "https://drive.google.com/file/d/18MFpF5G2VtG6XTOssKiXBULzSOsi7b0K/view?usp=sharing",
+      "Selsella": "https://drive.google.com/file/d/1ATPetGwE0vU8_g9nP2oXZRfMnjGC6wxJ/view?usp=sharing",
+      "Tikrikilla": "https://drive.google.com/file/d/16vbqA7Y13gl6Gw4sukZ7SsjD28hZJx8l/view?usp=sharing",
+      "Rongram": "https://drive.google.com/file/d/117MSCG6tPoTgIHNVkWl5PLaY-HuEeOMG/view?usp=sharing",
     },  
     "East Garo Hills":  {
-      "Sonsek": "https://drive.google.com/file/d/1k6_HHw8l6iYqcDMQUaRI5X0-NPtJCAxy/view?usp=drive_link",
-      "Rongjeng": "https://drive.google.com/file/d/1fkjf6NoLnOrQTneBXuqX5B57dGBdi660/view?usp=drive_link",
-      "Samanda": "https://drive.google.com/file/d/1PUPIxpzt7DzSgdxUKyG9-VGZ-W_kFMAo/view?usp=drive_link",
+      "Sonsek": "https://drive.google.com/file/d/1Xwdidsc3KiJWtivoiPuTsDReuj1tDH6V/view?usp=sharing",
+      "Rongjeng": "https://drive.google.com/file/d/1dwyBmDGkMbI0zq-czLpTB7OoI8VlUn3b/view?usp=sharing",
+      "Samanda": "https://drive.google.com/file/d/1u5zXSOGWlJTU5EdyJ_SLFE6wGeB5LUl5/view?usp=sharing",
     },
     "North Garo Hills": { 
-      "Bajenadoba": "https://drive.google.com/file/d/1459flyqB4qFlWI3Reonh5kX6nzM7et8I/view?usp=drive_link",
-      "Resubelpera": "https://drive.google.com/file/d/1nmGseSkB7HsGRsMCMHcVAv-vOhqQQ6wt/view?usp=drive_link",
-      "Khakutta": "https://drive.google.com/file/d/1B5kbI9cPEzBNPrpTz0jZ9G7d20HVthfQ/view?usp=drive_link",
+      "Bajenadoba": "https://drive.google.com/file/d/18Eh2PExWYa0nyVlsrSJ9fR7YWS0HFlf8/view?usp=sharing",
+      "Resubelpera": "https://drive.google.com/file/d/1sIur1JZ9RMB8x8tALDJH8ZoMWOr6XmJN/view?usp=sharing",
+      "Khakutta": "https://drive.google.com/file/d/1R7yHifF0uMTtFs_l5Lp12EHGvEAyyeHy/view?usp=sharing",
     },
     "South Garo Hills": {
-      "Baghmara": "https://drive.google.com/file/d/1c9L8g7BRd6HHCMwWjNEXoqjxplVQy_LC/view?usp=drive_link",
-      "Chokpot": "https://drive.google.com/file/d/1AP7SWRX_OOOBfUs3dQsE8OdNS3vgDTdi/view?usp=drive_link",
-      "Gasuapara": "https://drive.google.com/file/d/1x_7c9fYa_v3NG4Pu4l2D0LmZKwj3t3aR/view?usp=drive_link",
-      "Rongra": "https://drive.google.com/file/d/1VyeTY9Z8zx_wGt1CjFB95e8fhkX2t-LY/view?usp=drive_link",  
+     "Baghmara": "https://drive.google.com/file/d/1sUcWPFbyntjsa0elpZ5eGdRMitm28PNo/view?usp=sharing",
+     "Chokpot": "https://drive.google.com/file/d/1Igt-OoQeKQ9eVo8SB78R_Txk6-4FsGmo/view?usp=sharing",
+     "Gasuapara": "https://drive.google.com/file/d/1z6_0iN5XZbPN5RRN9RSXmNQyyLhqN0mI/view?usp=sharing",
+     "Rongra": "https://drive.google.com/file/d/16uOss2kp1zAtuxk_eGCB9JbCKtSBq0p0/view?usp=sharing",  
     },
     "Ribhoi": {
-      "Jirang": "https://drive.google.com/file/d/1rZ5q0IUPuMstJrdYmDWSEove5gtw3wsZ/view?usp=drive_link",
-      "Umling": "https://drive.google.com/file/d/1gfNB890qNyOfStwQV4vukBC6xzytMyFk/view?usp=drive_link",
-      "Umsning": "https://drive.google.com/file/d/1eQDC7O8MVfV1QHQDDyAGhy2vU4ofNqPe/view?usp=drive_link",
+      "Bhoi Rymbong": "https://drive.google.com/file/d/1_AYNq-JUCqbw9xxWvHGmgBevOIxNVurh/view?usp=sharing",
+      "Jirang": "https://drive.google.com/file/d/1CpaRM2AXsYPrHpx_nSLkb_TTya17WwUD/view?usp=sharing",
+      "Umling": "https://drive.google.com/file/d/1a024nAw5VhpAEJwaaH6za08zvFdvwIEo/view?usp=sharing",
+      "Umsning": "https://drive.google.com/file/d/1munFEx6_ub_NuzmgR1TOzPX8ZY38UosF/view?usp=sharing",
     },
      "South West Garo Hills": {
-      "Betasing": "https://drive.google.com/file/d/1P9x_zleczsNmGFiAsyAK_sWjSHk65SuS/view?usp=drive_link",
-      "Damalgre": "https://drive.google.com/file/d/1JhhR811Z6RiGCzTul9ylmZmmajX9g65H/view?usp=drive_link",
-      "Zikzak": "https://drive.google.com/file/d/1Unt8eEvQ5l80y4U2WRTTMoQ7htTPIR73/view?usp=drive_link",
+      "Betasing": "https://drive.google.com/file/d/1ubkAseTVxGs_l8yQCwfUh1C82lIQeKuh/view?usp=sharing",
+      "Damalgre": "https://drive.google.com/file/d/13me0r5dKyu2Axf5bsNIEGKJkorg0jnfk/view?usp=sharing",
+      "Zikzak": "https://drive.google.com/file/d/1eIu7mgkQsWQEpuVQJ33u5MHCEq4d08v6/view?usp=sharing",
     },
      "South West Khasi Hills": {
-      "Mawkyrwat": "https://drive.google.com/file/d/1TotPfgngUjA49rnUssUy5yYkJ99Ro5rj/view?usp=drive_link",
-      "Ranikor": "https://drive.google.com/file/d/1MoQeNziRrI_x_lSUEF85xFStQImFr_PJ/view?usp=drive_link",
+      "Mawkyrwat": "https://drive.google.com/file/d/1Nks37ApWdRcCKhQVq36Nk50btej5igMZ/view?usp=sharing",
+      "Ranikor": "https://drive.google.com/file/d/1eM963IQ89ZlQ_8ewwAWNWErLtigaJ-vV/view?usp=sharing",
     },
      "East Jaintia Hills": {
-      "Khilehriat": "https://drive.google.com/file/d/1Lck99inL2fpfxnI_2nxwkxaUDFOdyclI/view?usp=drive_link",
-      "Saipung": "https://drive.google.com/file/d/1HnQngEqmPk19WFRMm4amGBYf0huQrsC8/view?usp=drive_link",
+      "Khilehriat": "https://drive.google.com/file/d/1AD4Dc2vB9hT1SRkFK1_RYDemjhfBubta/view?usp=sharing",
+      "Saipung": "https://drive.google.com/file/d/1b-aioBAvXY8KVaWpNbkIEZzfrLttZFS1/view?usp=sharing",
     },
      "West Jaintia Hills": {
-      "Amlarem": "https://drive.google.com/file/d/1g7TphrXezBHRVbJ7izrJPw4a3v5PD4N6/view?usp=drive_link",
-      "Laskein": "https://drive.google.com/file/d/1vQk2i83e1ScFMyfaCh9QCVGMfUEEuYNR/view?usp=drive_link",
-      "Thadlaskein": "https://drive.google.com/file/d/1Ki-z8laV-9ps77Lfd1SEoJurQ5-uu5es/view?usp=drive_link",
+      "Amlarem": "https://drive.google.com/file/d/1PKTKpP47QcTf0oDSe8nY9qgX9d2MTaMp/view?usp=sharing",
+      "Laskein": "https://drive.google.com/file/d/1kpcXSLsJOuMo__2E7JBlQ8I8FEOpE0If/view?usp=sharing",
+      "Thadlaskein": "https://drive.google.com/file/d/1i4hrUi4ZJdhm_YMi70Oq9epdZqblKkHr/view?usp=sharing",
     },
      "West Khasi Hills": {
-      "Mawshynryt": "https://drive.google.com/file/d/1CElq_u3yhJqrKeoF_mddmGsg3WiauSqR/view?usp=drive_link",
-      "Nongstoin": "https://drive.google.com/file/d/1J2iU1ySN1X0vT66dvNcpuAGIBKlbSCsc/view?usp=drive_link",
-      "Mawthadraiishan": "https://drive.google.com/file/d/1SpOvRalJmAabkilZAjBhnG51RZ5r4BPZ/view?usp=drive_link",
+      "Mairang": "https://drive.google.com/file/d/11myg8i3mBOhZC7JtK7VjNc4gFG04RvMm/view?usp=sharing",
+      "Mawshynryt": "https://drive.google.com/file/d/1ucayL15BKHBc9r0YKwPwJxpMf7Z_QR3y/view?usp=sharing",
+      "Nongstoin": "https://drive.google.com/file/d/168H2T0yFm5Hqd9-y6ONzNz0lxz1auS3I/view?usp=sharing",
+      "Mawthadraiishan": "https://drive.google.com/file/d/1Enk4T3ar2KtigloOCAEYAGGfRyIIoASX/view?usp=sharing",
+
     },
   }
 };
 const roadPhases = ['Phase I', 'Phase II', 'Phase III', 'Phase IV'];
+const phase3BlockLinks = {
+   "Meghalaya": {
+    "East Khasi Hills": {
+      "Laitkroh": "https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BVNeha/indian-map-selector/main/LAITKROH.xls",
+      "Mawlai": "file:///C:/Users/nehab/Downloads/Zipped%20PDF%20Files%20(27)%20(3)/MawlaiA0-1.pdf",
+      "Mawpat": "file:///C:/Users/nehab/Downloads/Zipped%20PDF%20Files%20(28)%20(2)/MawpatA0-1.pdf",
+      "Mylliem": "file:///C:/Users/nehab/Downloads/Zipped%20PDF%20Files%20(49)%20(1)/MYLLIEMA0-1.pdf",
+      "Sohiong": "file:///C:/Users/nehab/Downloads/Zipped%20PDF%20Files%20(38)%20(2)/SohiongA0-1.pdf",
+      "Mawphlang": "file:///C:/Users/nehab/Downloads/Zipped%20PDF%20Files%20(29)%20(2)/MawphlangA0-1.pdf",
+      "Mawsynram": "file:///C:/Users/nehab/Downloads/Zipped%20PDF%20Files%20(52)%20(2)/mawsynramA0-1.pdf",
+      "Pynursla": "file:///C:/Users/nehab/Downloads/Zipped%20PDF%20Files%20(47)%20(2)/Pynursla-1.pdf",
+      "Mawkynrew": "file:///C:/Users/nehab/Downloads/Zipped%20PDF%20Files%20(25)%20(2)/Mawkynrew-1.pdf",
+      "Shella Bollaganj": "file:///C:/Users/nehab/Downloads/Zipped%20PDF%20Files%20(39)%20(2)/ShellaBholaghanjA0-1.pdf",
+      "Mawryngkneng": "file:///C:/Users/nehab/Downloads/Zipped%20PDF%20Files%20(30)%20(2)/Mawryngkeneng-1.pdf",
+    },
+    "East Garo Hills":  {
+      "Sonsek": "https://raw.githubusercontent.com/BVNeha/indian-map-selector/main/EGH%20Complete/Sonsak-New%20A0-1.pdf",
+      "Rongjeng": "https://raw.githubusercontent.com/BVNeha/indian-map-selector/main/EGH%20Complete/Dambb%20Rongjong/Dambb%20Rongjong.xlsx",
+      "Samanda": "https://raw.githubusercontent.com/BVNeha/indian-map-selector/main/EGH%20Complete/Samanda-A0-1.pdf",
+    },
+  }
+}; 
 const roadLinks  = ['RL001', 'RL002', 'RL003', 'RL004'];
 
 // Utility function to populate dropdowns
@@ -284,13 +309,42 @@ function showData() {
     blockMapLink = blockMapsLinks[state][districtmaps][blockmap];
   }
 
-  document.getElementById('result').innerText =
-   `Showing data for:\n` +
-   `District: ${district}\n` +
-   `Block: ${block}\n` +
-   `Districtmap: ${districtmaps}\n` +
-   `blockmap: ${blockmaps}\n` +
-   `Road Phase: ${phase}\n` +
-   `Road Link: ${link}\n `;
-    
+  let html = `<div>
+    <p>Showing data for:</p>
+    <ul>
+      <li>District: ${district}</li>
+      <li>Block: ${block}</li>
+      <li>Districtmap: ${districtmaps}</li>
+      <li>Blockmap: ${blockmap}</li>
+      <li>Road Phase: ${phase}</li>
+      <li>Road Link: ${link}</li>
+    </ul>
+   `;
+
+  if (districtMapLink) {
+    html += `<div>
+      <strong>District Map:</strong><br>
+      <img src="${districtMapLink}" alt="District Map" style="max-width:300px;max-height:300px;"><br>
+      <a href="${districtMapLink}" target="_blank">Open Map</a>
+    </div>`;
+  }
+
+  if (blockMapLink) {
+    html += `<div>
+      <strong>Block Map:</strong><br>
+      <img src="${blockMapLink}" alt="Block Map" style="max-width:300px;max-height:300px;"><br>
+      <a href="${blockMapLink}" target="_blank">Open Map</a>
+    </div>`;
+  }
+
+  if (phase === "Phase III") {
+    html += `<div>
+      <strong>Download Phase III Excel Sheet:</strong><br>
+      <a href="road_phase_3.xlsx" download>Click here to download Excel Sheet</a>
+    </div>`;
+  }
+
+  html += "</div>";
+
+  document.getElementById('result').innerHTML = html;
 }
