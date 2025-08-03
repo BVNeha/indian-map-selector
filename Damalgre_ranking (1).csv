@@ -1,0 +1,42 @@
+fid,Length,RoadCode,Name of road proposed from,Un ID,Block,Population serve by New Alignment .,Total cost,Ranking,Absolute ranking,x,y,"If change in habitations in village provide GPS coordinates  (X,Y).",Name & Population served by Habitation in villages.,"Whether Road is Sanctioned under any scheme ( Yes/No) eg. MNREGA, PMGSY, PWD, C&RD, BADO, etc.  (?)",Whether road alignment considered in CRRI ITNDP Phase-3 Roads (Yes/No),Name of road proposed from,Existing Surface Type E/G/WBM. (?)       Proposed E/G/WBM/BT(Provide KML),Road Agency (PWD/C&RD/Industry/Mining/Agriculture/Tourist/Water/BADA/any other).,Difference,Length (KM) of New Roads Construction Proposed.,Total Cost  based on cost per km average rate 2024(in Lakhs) Length*Rate.,New total cost,Rounded,Length portion (KM).,Width of road length(metre) proposed.,Length of New construction of Bridge/CD/Culvert (Meter).,Type Bridge/CD/Culvert/etc.,Cost for Bridge in lakh/CD/Culvert/etc.
+1510,0.658921825,SWGH_DA_NL06,AMPT road to Upper Damalgre,1615,Damalgre/Rerapara,825,124,0.15030303,1,20.4553,90.2643,25.52236 90.113547, Upper Damalgre,0,,AMPT road to Upper Damalgre,E,PWD,-0.341078175,1,150,98.83827376,99,1,3,5,HP Culvert,25
+1517,0.439677915,SWGH_DA_NL13,Rangsakona to Masalgre,3745,Damalgre/Rerapara,409,88,0.215158924,2,20.4553,90.2643,25.53127 90.03214 ,Masalgre,0,,Rangsakona to Masalgre,E,PWD,0.139677915,0.3,50,73.27965252,73,0.3,3,3,HP Culvert,15
+1519,0.617751045,SWGH_DA_NL15,DHB road to Okkapara Apalgre,3765,Damalgre/Rerapara,454,203,0.447136564,3,20.4553,90.2643,25.48181 90.09484,Okkapara Apalgre,0,,DHB road to Okkapara Apalgre,E,PWD,-0.382248955,1,150,92.66265676,93,1,3,9,HP Culvert,110
+1511,0.765892393,SWGH_DA_NL07,Jamanggre Eokuntagre road to Dilnigre,1849,Damalgre/Rerapara,281,173,0.615658363,4,20.4553,90.2643,25.56390 90.04236,Dilnigre,0,,Jamanggre Eokuntagre road to Dilnigre,E,PWD,-0.234107607,1,200,153.1784785,153,1,3,4,HP Culvert,20
+1512,0.9693639,SWGH_DA_NL08,pelga road to Chikimilgre,5345,Damalgre/Rerapara,259,224,0.864864865,5,20.4553,90.2643,26.53158 90.14456,Chikimilgre,0,,pelga road to Chikimilgre,E,PWD,-0.0306361,1,200,193.8727801,194,1,3,6,HP Culvert,30
+1509,0.737410699,SWGH_DA_NL05,AMPT road to New Upper Damalgre,2005,Damalgre/Rerapara,103,131,1.27184466,6,20.4553,90.2643,25.52243 90.12546,New Upper Damalgre,0,,AMPT road to New Upper Damalgre,E,PWD,-0.262589301,1,150,110.6116048,111,1,3,4,HP Culvert,20
+1508,2.796602055,SWGH_DA_NL04,AMPT road to Bolganggre,3195,Damalgre/Rerapara,388,609,1.569587629,7,20.4553,90.2643,25.55887 90.08284,Bolganggre,0,,AMPT road to Bolganggre,E,PWD,-0.203397945,3,600,559.3204111,559,3,3,10,HP Culvert,50
+1507,1.291736439,SWGH_DA_NL03,GBR road to Misikhona via Dolbari,6206,Damalgre/Rerapara,174,560,3.218390805,8,20.4553,90.2643,25.55316 90.03729,Misikhona,0,0,GBR road to Misikhona via Dolbari,E,PWD,-1.208263561,2.5,600,310.0167453,310,2.5,3,20,Box Culvert,250
+1521,5.842544846,SWGH_DA_NL17,DMB road to Grangandi via Bolchugre,1835,Damalgre/Rerapara,262,1095,4.179389313,9,20.4553,90.2643,25.52178 90.08306,Bolchugre,0,0,DMB road to Grangandi via Bolchugre,E,PWD,0.842544846,5,800,934.8071754,935,5,3,30,HP Culvert,160
+1506,4.28720443,SWGH_DA_NL02,G D road to Manggagre Via Talanggre,645,Damalgre/Rerapara,158,774,4.898734177,10,20.4553,90.2643,25.25399 90.01189,Manggagre & Talanggre,0,1,G D road to Manggagre Via Talanggre,E,PWD,-1.21279557,5.5,800,623.5933717,624,5.5,3,30,HP Culvert,150
+1520,3.232123147,SWGH_DA_NL16,Teporpara to Tiksali ,3803,Damalgre/Rerapara,42,635,15.11904762,11,20.4553,90.2643,25.61279 89.97366,Tiksali,0,,Teporpara to Tiksali ,E,PWD,-0.767876853,4,600,484.8184721,485,4,3,30,HP Culvert,150
+1518,6.693424128,SWGH_DA_NL14,Rongbakgre to Molmegre,3750,Damalgre/Rerapara,72,1533,21.29166667,12,20.4553,90.2643,25.49644 90.12626,Molmegre,0,,Rongbakgre to Molmegre,E,PWD,3.193424128,3.5,650,1243.064481,1243,3.5,3,9,HP Culvert,290
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,28.33265282,,,,,6149,,,,,,,,,,,,-0.467347177,28.8,4950,4878.064103,4879,,,,,1270,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,Total No of Road,,12,,,,,Financing plan of roads in Damalgre Phase 3,,,,,,,,,,,,,,,,,
+,,Total Length of New Construction(km),,,,28.33265282,,,,,,Year,,RoadCode,RoadName,,,,,km to be done,Amount required,Budget,,,,,,
+,,Total Cost of Bridge and Culvert,,,,1270,,,,,,2024,,SWGH_DA_NL06,AMPT road to Upper Damalgre,,,,,,124,212,,,,,,
+,,Total Cost of Road,,,,4879,,,,,,,,SWGH_DA_NL13,Rangsakona to Masalgre,,,,,,88,,,,,,,
+,,Total Cost for Damalgre (lakh),,,,6149,,,,,,2025,,SWGH_DA_NL15,DHB road to Okkapara Apalgre,,,,,,203,376,,,,,,
+,,Yearly budget (20 years),,,,307.45,,,,,,,,SWGH_DA_NL07,Jamanggre Eokuntagre road to Dilnigre,,,,,,173,,,,,,,
+,,,,,,,,,,,,2026,,SWGH_DA_NL08,pelga road to Chikimilgre,,,,,,224,355,,,,,,
+,,,,,,,,,,,,,,SWGH_DA_NL05,AMPT road to New Upper Damalgre,,,,,,131,,,,,,,
+,,,,,,,,,,,,2027,,SWGH_DA_NL04,AMPT road to Bolganggre (0-1.4km),,,,,1.4,304.5,304.5,,,,,,
+,,,,,,,,,,,,2028,,SWGH_DA_NL04,AMPT road to Bolganggre (1.4-2.8km),,,,,1.4,304.5,304.5,,,,,,
+,,,,,,,,,,,,2029,,SWGH_DA_NL03,GBR road to Misikhona via Dolbari (0-0.77km),,,,,0.77,331,331,,,,,,
+,,,,,,,,,,,,2030,,SWGH_DA_NL03,GBR road to Misikhona via Dolbari (0.77-1.3km),,,,,0.53,229,331,,,,,,
+,,,,,,,,,,,,,,SWGH_DA_NL17,DMB road to Grangandi via Bolchugre (0-0.54km),,,,,0.54,102,,,,,,,
+,,,,,,,,,,,,2031,,SWGH_DA_NL17,DMB road to Grangandi via Bolchugre (0.54-2.31km),,,,,1.77,331,331,,,,,,
+,,,,,,,,,,,,2032,,SWGH_DA_NL17,DMB road to Grangandi via Bolchugre (2.31-4.08km),,,,,1.77,331,331,,,,,,
+,,,,,,,,,,,,2033,,SWGH_DA_NL17,DMB road to Grangandi via Bolchugre (4.08-5.85km),,,,,1.77,331,331,,,,,,
+,,,,,,,,,,,,2034,,SWGH_DA_NL02,G D road to Manggagre Via Talanggre (0-2.15km),,,,,2.15,387,387,,,,,,
+,,,,,,,,,,,,2035,,SWGH_DA_NL02,G D road to Manggagre Via Talanggre (2.15-4.3km),,,,,2.15,387,387,,,,,,
+,,,,,,,,,,,,2036,,SWGH_DA_NL16,Teporpara to Tiksali (0-1.62km),,,,,1.62,317.5,317.5,,,,,,
+,,,,,,,,,,,,2037,,SWGH_DA_NL16,Teporpara to Tiksali (1.62-3.23km),,,,,1.61,317.5,317.5,,,,,,
+,,,,,,,,,,,,2038,,SWGH_DA_NL14,Rongbakgre to Molmegre (0-1.34km),,,,,1.34,306.6,306.6,,,,,,
+,,,,,,,,,,,,2039,,SWGH_DA_NL14,Rongbakgre to Molmegre (1.34-2.68km),,,,,1.34,306.6,306.6,,,,,,
+,,,,,,,,,,,,2040,,SWGH_DA_NL14,Rongbakgre to Molmegre (2.68-4.02km),,,,,1.34,306.6,306.6,,,,,,
+,,,,,,,,,,,,2041,,SWGH_DA_NL14,Rongbakgre to Molmegre (4.02-5.36km),,,,,1.34,306.6,306.6,,,,,,
+,,,,,,,,,,,,2042,,SWGH_DA_NL14,Rongbakgre to Molmegre (5.36-6.7km),,,,,1.34,306.6,306.6,,,,,,
